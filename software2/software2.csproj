@@ -89,10 +89,53 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Views\Home\css\main.css" />
+    <Content Include="Views\Home\css\util.css" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Views\Home\fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
+    <Content Include="Views\Home\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
+    <Content Include="Views\Home\fonts\montserrat\OFL.txt" />
+    <Content Include="Views\Home\images\bg-01.jpg" />
+    <Content Include="Views\Home\images\icons\favicon.ico" />
+    <Content Include="Views\Home\js\main.js" />
+    <Content Include="Views\Home\vendor\animate\animate.css" />
+    <Content Include="Views\Home\vendor\animsition\css\animsition.css" />
+    <Content Include="Views\Home\vendor\animsition\css\animsition.min.css" />
+    <Content Include="Views\Home\vendor\animsition\js\animsition.js" />
+    <Content Include="Views\Home\vendor\animsition\js\animsition.min.js" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Views\Home\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Views\Home\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Views\Home\vendor\bootstrap\js\popper.js" />
+    <Content Include="Views\Home\vendor\bootstrap\js\popper.min.js" />
+    <Content Include="Views\Home\vendor\bootstrap\js\tooltip.js" />
+    <Content Include="Views\Home\vendor\countdowntime\countdowntime.js" />
+    <Content Include="Views\Home\vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="Views\Home\vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="Views\Home\vendor\daterangepicker\daterangepicker.css" />
+    <Content Include="Views\Home\vendor\daterangepicker\daterangepicker.js" />
+    <Content Include="Views\Home\vendor\daterangepicker\moment.js" />
+    <Content Include="Views\Home\vendor\daterangepicker\moment.min.js" />
+    <Content Include="Views\Home\vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="Views\Home\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Views\Home\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="Views\Home\vendor\select2\select2.css" />
+    <Content Include="Views\Home\vendor\select2\select2.js" />
+    <Content Include="Views\Home\vendor\select2\select2.min.css" />
+    <Content Include="Views\Home\vendor\select2\select2.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,6 +144,86 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="Views\Home\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="Views\Home\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.eot" />
+    <Content Include="Views\Home\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.ttf" />
+    <Content Include="Views\Home\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff" />
+    <Content Include="Views\Home\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff2" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Black.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-BlackItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Bold.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-BoldItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-ExtraBold.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-ExtraLight.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Italic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Light.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-LightItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Medium.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-MediumItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Regular.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-SemiBold.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-Thin.ttf" />
+    <Content Include="Views\Home\fonts\montserrat\Montserrat-ThinItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="Views\Home\fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Views\Home\vendor\bootstrap\css\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,7 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
