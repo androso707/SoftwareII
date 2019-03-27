@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Felipe Osorio\\.nuget\\packages\\": {},
+    "C:\\Users\\boter\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe Osorio\\source\\repos\\SoftwareII\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\boter\\SoftwareII\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\Felipe Osorio\\source\\repos\\SoftwareII\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\Felipe Osorio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Felipe Osorio\\source\\repos\\SoftwareII\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\boter\\SoftwareII\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\boter\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\boter\\SoftwareII\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Felipe Osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\boter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
