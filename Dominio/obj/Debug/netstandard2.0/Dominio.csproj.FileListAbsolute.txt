@@ -1,0 +1,4 @@
+C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.csprojAssemblyReference.cache
+C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfo.cs
