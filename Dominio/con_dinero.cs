@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Dominio
 {
-    class con_dinero : tramite
+    class Con_dinero : tramite
     {
         double monto;
 
-        public con_dinero()
+        public Con_dinero()
         {
         }
     }

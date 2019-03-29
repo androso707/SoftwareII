@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Dominio
 {
-    class Cliente
+    class control_n_consultar_estado_tramite
     {
-
     }
 }
