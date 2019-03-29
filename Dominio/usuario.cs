@@ -25,6 +25,15 @@ namespace Dominio
             this.contraseña = contraseña;
             this.fecha_nacimiento = fecha_nacimiento;
         }
+
+        public int Cedula { get => cedula; set => cedula = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Privilegios { get => privilegios; set => privilegios = value; }
+        public int Telefono { get => telefono; set => telefono = value; }
+        public string Email { get => email; set => email = value; }
+        public string Direccion { get => direccion; set => direccion = value; }
+        public string Contraseña { get => contraseña; set => contraseña = value; }
+        public DateTime Fecha_nacimiento { get => fecha_nacimiento; set => fecha_nacimiento = value; }
     }
 
 }
