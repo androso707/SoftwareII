@@ -20,6 +20,11 @@ namespace Dominio
             this.experiencia = experiencia;
             this.tipo_vehiculo = tipo_vehiculo;
         }
+
+        public object Pasado_judicial { get => pasado_judicial; set => pasado_judicial = value; }
+        public string Descripcion { get => descripcion; set => descripcion = value; }
+        public object Experiencia { get => experiencia; set => experiencia = value; }
+        public string Tipo_vehiculo { get => tipo_vehiculo; set => tipo_vehiculo = value; }
     }
     }
 }
