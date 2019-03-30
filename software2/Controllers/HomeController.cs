@@ -13,6 +13,8 @@ namespace software2.Controllers
         public ActionResult Index()
         {
             return View();
+            
+
         }
     }
 }

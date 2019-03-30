@@ -179,39 +179,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\boter\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\lina\\.nuget\\packages\\": {},
->>>>>>> fb03304214cee2654903e6e8f59f3e98053f162b
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\boter\\SoftwareII\\Dominio\\Dominio.csproj",
-      "projectName": "Dominio",
-      "projectPath": "C:\\Users\\boter\\SoftwareII\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\boter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\boter\\SoftwareII\\Dominio\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\lina\\SoftwareII\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
       "projectPath": "C:\\Users\\lina\\SoftwareII\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\lina\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lina\\SoftwareII\\Dominio\\obj\\",
->>>>>>> fb03304214cee2654903e6e8f59f3e98053f162b
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\boter\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\lina\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> fb03304214cee2654903e6e8f59f3e98053f162b
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -249,5 +233,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\lina\\SoftwareII\\Dominio\\obj\\Dominio.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

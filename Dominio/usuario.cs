@@ -14,7 +14,8 @@ namespace Dominio
         string contraseña;
         DateTime fecha_nacimiento;
 
-        public usuario(int cedula, string nombre, string privilegios, int telefono, string email, string direccion, string contraseña, DateTime fecha_nacimiento)
+        public usuario(int cedula, string nombre, string privilegios, int telefono, string email, 
+            string direccion, string contraseña, DateTime fecha_nacimiento)
         {
             this.cedula = cedula;
             this.nombre = nombre;

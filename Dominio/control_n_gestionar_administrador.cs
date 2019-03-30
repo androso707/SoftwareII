@@ -6,5 +6,6 @@ namespace Dominio
 {
     class control_n_gestionar_administrador
     {
+
     }
 }

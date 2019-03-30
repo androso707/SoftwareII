@@ -6,5 +6,11 @@ namespace Dominio
 {
     class control_n_inicio_sesion
     {
+
     }
+
+   
 }
+
+
+
