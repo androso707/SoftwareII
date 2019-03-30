@@ -25,7 +25,7 @@ namespace EnsayoOscar
                 || string.IsNullOrEmpty(email)|| 
                 string.IsNullOrEmpty(direccion) || 
                 fecha_nacimiento.Year<año || 
-                fecha_nacimiento.Year>añomayor|| string.IsNullOrEmpty(descripcion)|| string.IsNullOrEmpty(tipo_vehiculo))
+                fecha_nacimiento.Year>añomayor|| string.IsNullOrEmpty(contraseña)||contraseña.Length >6||contraseña.Length<12||string.IsNullOrEmpty(descripcion)|| string.IsNullOrEmpty(tipo_vehiculo))
             {
 
                 Console.WriteLine("CAmpos invalidos ");
@@ -57,6 +57,7 @@ namespace EnsayoOscar
                     Console.WriteLine(año);
                     Console.WriteLine(DateTime.Today.Year - fecha_nacimiento.Year);
                 }
+                
                 comprobacion = false;
             }
             else
@@ -80,10 +81,13 @@ namespace EnsayoOscar
 
             return comprobacion;
         }
-        
+        public bool comprobar_mayusculas(String contraseña) {
+            bool tieneMayusculas = 
+            return true;
+        }
 
 
 
-        
+
     }
 }

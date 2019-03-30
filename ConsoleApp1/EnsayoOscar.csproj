@@ -48,6 +48,7 @@
     <Compile Include="control_n_registrar_tramitador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="conexion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
