@@ -2,3 +2,12 @@ C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.csprojAssembly
 C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfoInputs.cache
 C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfo.cs
+C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.csprojAssemblyReference.cache
+C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfo.cs
+C:\Users\boter\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.deps.json
+C:\Users\boter\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.dll
+C:\Users\boter\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.pdb
+C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.dll
+C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.pdb

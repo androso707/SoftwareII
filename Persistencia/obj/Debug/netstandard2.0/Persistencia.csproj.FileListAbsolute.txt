@@ -1,0 +1,9 @@
+C:\Users\boter\SoftwareII\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+C:\Users\boter\SoftwareII\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+C:\Users\boter\SoftwareII\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\Users\boter\SoftwareII\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+C:\Users\boter\SoftwareII\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\boter\SoftwareII\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\boter\SoftwareII\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+C:\Users\boter\SoftwareII\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+C:\Users\boter\SoftwareII\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
