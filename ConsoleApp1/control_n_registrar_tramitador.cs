@@ -25,7 +25,7 @@ namespace EnsayoOscar
                 || string.IsNullOrEmpty(email)|| 
                 string.IsNullOrEmpty(direccion) || 
                 fecha_nacimiento.Year<año || 
-                fecha_nacimiento.Year>añomayor)
+                fecha_nacimiento.Year>añomayor|| string.IsNullOrEmpty(descripcion)|| string.IsNullOrEmpty(tipo_vehiculo))
             {
 
                 Console.WriteLine("CAmpos invalidos ");
@@ -72,6 +72,8 @@ namespace EnsayoOscar
                 Console.WriteLine(fecha_nacimiento.Month);
                 Console.WriteLine(fecha_nacimiento.Day);
                 Console.WriteLine(DateTime.Today.Year);
+                Console.WriteLine(descripcion);
+                Console.WriteLine(tipo_vehiculo);
                 comprobacion = true;
             }
 
