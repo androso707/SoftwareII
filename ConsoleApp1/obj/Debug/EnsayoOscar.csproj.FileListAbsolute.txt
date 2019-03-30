@@ -5,3 +5,10 @@ C:\Users\boter\SoftwareII\ConsoleApp1\obj\Debug\EnsayoOscar.csprojAssemblyRefere
 C:\Users\boter\SoftwareII\ConsoleApp1\obj\Debug\EnsayoOscar.csproj.CoreCompileInputs.cache
 C:\Users\boter\SoftwareII\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\boter\SoftwareII\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\lina\SoftwareII\ConsoleApp1\obj\Debug\EnsayoOscar.csprojAssemblyReference.cache
+C:\Users\lina\SoftwareII\ConsoleApp1\obj\Debug\EnsayoOscar.csproj.CoreCompileInputs.cache
+C:\Users\lina\SoftwareII\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\lina\SoftwareII\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\lina\SoftwareII\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\lina\SoftwareII\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\lina\SoftwareII\ConsoleApp1\bin\Debug\ConsoleApp1.pdb

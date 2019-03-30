@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="control_n_calificar_cliente.cs" />
     <Compile Include="control_n_calificar_tramitador.cs" />
+    <Compile Include="control_n_registrar_tramitador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
