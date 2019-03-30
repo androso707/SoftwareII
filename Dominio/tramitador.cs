@@ -26,5 +26,5 @@ namespace Dominio
         public object Experiencia { get => experiencia; set => experiencia = value; }
         public string Tipo_vehiculo { get => tipo_vehiculo; set => tipo_vehiculo = value; }
     }
-    }
 }
+

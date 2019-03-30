@@ -6,20 +6,11 @@ namespace Dominio
 {
     class control_n_calificar_cliente
     {
-
-'# Existe_cliente(idcliente)!=false,
-'# consultar_estado_tramite(idtramite)==”TERMINADO”,
-'# String.IsNullOrEmpty(nombre),
-'# String.IsNullOrEmpty(tipo),
-'# String.IsNullOrEmpty(calificacion),
-'//fdfjdfd
-
-
-
+        
 
         public bool Existe_cliente(String idTramite)
         {
-            
+            Console.WriteLine("Existe??? Exitoda del Cliente");
 
             return true;
         }

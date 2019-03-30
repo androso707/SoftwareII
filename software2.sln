@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "software2\MVC.csproj", "{6F45F061-9BB0-46AA-ADCE-5D630E095420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{FABB9658-B671-4A0B-B043-1E1757C2CE19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{FABB9658-B671-4A0B-B043-1E1757C2CE19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{608C2F73-53F9-4D03-9C7B-B5F6F9373955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistencia", "Persistencia\Persistencia.csproj", "{608C2F73-53F9-4D03-9C7B-B5F6F9373955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsayoOscar", "ConsoleApp1\EnsayoOscar.csproj", "{DD7DC71E-08B3-4D28-910B-603D6BFF3999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{608C2F73-53F9-4D03-9C7B-B5F6F9373955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{608C2F73-53F9-4D03-9C7B-B5F6F9373955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{608C2F73-53F9-4D03-9C7B-B5F6F9373955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
