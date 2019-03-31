@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "software2\MVC.csproj", "{6F45F061-9BB0-46AA-ADCE-5D630E095420}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{FABB9658-B671-4A0B-B043-1E1757C2CE19}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsayoOscar", "ConsoleApp1\EnsayoOscar.csproj", "{DD7DC71E-08B3-4D28-910B-603D6BFF3999}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "WindowsFormsApp1\Persistencia.csproj", "{E8867F15-0E5A-44A7-8E5C-B6AFC6F1C84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominioo", "Dominioo\Dominioo.csproj", "{C791CBC3-3FDB-49D0-9265-0E12A43ADBAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{6F45F061-9BB0-46AA-ADCE-5D630E095420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F45F061-9BB0-46AA-ADCE-5D630E095420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F45F061-9BB0-46AA-ADCE-5D630E095420}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FABB9658-B671-4A0B-B043-1E1757C2CE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FABB9658-B671-4A0B-B043-1E1757C2CE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FABB9658-B671-4A0B-B043-1E1757C2CE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FABB9658-B671-4A0B-B043-1E1757C2CE19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD7DC71E-08B3-4D28-910B-603D6BFF3999}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{E8867F15-0E5A-44A7-8E5C-B6AFC6F1C84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8867F15-0E5A-44A7-8E5C-B6AFC6F1C84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8867F15-0E5A-44A7-8E5C-B6AFC6F1C84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C791CBC3-3FDB-49D0-9265-0E12A43ADBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C791CBC3-3FDB-49D0-9265-0E12A43ADBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C791CBC3-3FDB-49D0-9265-0E12A43ADBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C791CBC3-3FDB-49D0-9265-0E12A43ADBAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

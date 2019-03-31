@@ -6,19 +6,19 @@ using System.Windows.Forms;
 
 namespace Persistencia
 {
-    static class Program
+    public static class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
-        [STAThread]
-       static void Main()
-      {
-           AppDomain.CurrentDomain.SetData("DataDirectory",System.Environment.CurrentDirectory.Replace("\\bin\\Debug", ""));
+      //  [STAThread]
+       //public static void Main()
+     // {
+           //AppDomain.CurrentDomain.SetData("DataDirectory",System.Environment.CurrentDirectory.Replace("\\bin\\Debug", ""));
 
-           Application.EnableVisualStyles();
-           Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new Form1());
-        }
+//       Application.EnableVisualStyles();
+ //          Application.SetCompatibleTextRenderingDefault(false);
+   //        Application.Run(new Form1());
+       // }
     }
 }

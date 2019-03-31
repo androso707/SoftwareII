@@ -10,6 +10,8 @@ C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CoreCom
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.exe
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.pdb
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csprojAssemblyReference.cache
+<<<<<<< HEAD
+=======
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.exe.config
 C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Microsoft.Win32.Primitives.dll
 C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\netstandard.dll
@@ -222,3 +224,4 @@ C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CoreComp
 C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CopyComplete
 C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.exe
 C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.pdb
+>>>>>>> 9176b8aaf5da1f01756a2d783504548bfd6aa3bd
