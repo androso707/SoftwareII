@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\boter\\.nuget\\packages\\": {},
+    "C:\\Users\\lina\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\boter\\SoftwareII\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\lina\\SoftwareII\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\boter\\SoftwareII\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\boter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\boter\\SoftwareII\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\lina\\SoftwareII\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\lina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lina\\SoftwareII\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\boter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
