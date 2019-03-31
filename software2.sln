@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsayoOscar", "ConsoleApp1\EnsayoOscar.csproj", "{DD7DC71E-08B3-4D28-910B-603D6BFF3999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistenciaa", "WindowsFormsApp1\Persistenciaa.csproj", "{E8867F15-0E5A-44A7-8E5C-B6AFC6F1C84A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "WindowsFormsApp1\Persistencia.csproj", "{E8867F15-0E5A-44A7-8E5C-B6AFC6F1C84A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,12 +4,13 @@ using System.Text;
 
 namespace Dominio
 {
-    class control_n_calificar_cliente
+    public class control_n_calificar_cliente
     {
         
 
         public bool Existe_cliente(String idTramite)
         {
+            
             Console.WriteLine("Existe??? Exitoda del Cliente");
 
             return true;
