@@ -1,0 +1,13 @@
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.csprojAssemblyReference.cache
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.csproj.GenerateResource.cache
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.csproj.CoreCompileInputs.cache
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.Form1.resources
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.Properties.Resources.resources
+C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Persistenciaa.exe.config
+C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Persistenciaa.exe
+C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Persistenciaa.pdb
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.exe
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistenciaa.pdb
+C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Database.mdf
+C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Database_log.ldf
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources

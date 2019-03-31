@@ -11,3 +11,8 @@ C:\Users\boter\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.dll
 C:\Users\boter\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.pdb
 C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.dll
 C:\Users\boter\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.pdb
+C:\Users\lina\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.deps.json
+C:\Users\lina\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.dll
+C:\Users\lina\SoftwareII\Dominio\bin\Debug\netstandard2.0\Dominio.pdb
+C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.dll
+C:\Users\lina\SoftwareII\Dominio\obj\Debug\netstandard2.0\Dominio.pdb
