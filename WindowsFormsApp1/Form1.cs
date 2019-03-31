@@ -29,11 +29,17 @@ namespace Persistencia
         private void button2_Click(object sender, EventArgs e)
         {
 
-            Dominio.control_n_calificar_cliente calificacliente = new Dominio.control_n_calificar_cliente();
-            calificacliente.Existe_cliente("3");
+            ////Dominio.control_n_calificar_cliente calificacliente = new Dominio.control_n_calificar_cliente();
+            ////calificacliente.Existe_cliente("3");
+
+            ////Dominio.control_n_registrar_tramitador regtramitador = new Dominio.control_n_registrar_tramitador();
+
+
+            Tramitador tramita = new Tramitador();
+            tramita.Apellidos = "jsdns";
 
             Administrador newAdministrador = new Administrador();
-            newAdministrador.CedulaA = Convert.ToInt32(textBox1.Text); ;
+            newAdministrador.CedulaA = Convert.ToInt32(textBox1.Text);
             newAdministrador.Nombres = "Admin";
             newAdministrador.Apellidos = "admin";
             newAdministrador.Correo = "admin@admin.com";
@@ -55,8 +61,8 @@ namespace Persistencia
             catch (Exception)
             {
                 Console.WriteLine("falla");
-                calificacliente.Existe_cliente("3");
-                MessageBox.Show(Convert.ToString(calificacliente.Existe_cliente("3")));
+                ////calificacliente.Existe_cliente("3");
+                ////MessageBox.Show(Convert.ToString(calificacliente.Existe_cliente("3")));
                 MessageBox.Show("fracaso");
             }
 
