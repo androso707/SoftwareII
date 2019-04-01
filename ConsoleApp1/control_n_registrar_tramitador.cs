@@ -82,7 +82,7 @@ namespace EnsayoOscar
             return comprobacion;
         }
         public bool comprobar_mayusculas(String contraseña) {
-            bool tieneMayusculas = 
+            bool tieneMayusculas;
             return true;
         }
 
