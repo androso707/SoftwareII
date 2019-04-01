@@ -3,7 +3,6 @@ C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Database_log.ldf
 C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Persistencia.exe.config
 C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Persistencia.exe
 C:\Users\boter\SoftwareII\WindowsFormsApp1\bin\Debug\Persistencia.pdb
-C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.Form1.resources
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.Properties.Resources.resources
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.GenerateResource.cache
 C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
@@ -34,3 +33,4 @@ C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Deb
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.exe
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.pdb
+C:\Users\boter\SoftwareII\WindowsFormsApp1\obj\Debug\Dominioo.Form1.resources
