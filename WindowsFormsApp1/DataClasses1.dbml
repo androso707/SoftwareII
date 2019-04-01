@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True" SettingsObjectName="Persistencia.Properties.Settings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Administrador" Member="Administrador">
+    <Type Name="Administrador">
+      <Column Name="CedulaA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombres" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellidos" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Correo" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Contraseña" Type="System.String" DbType="NChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tramitador" Member="Tramitador">
+    <Type Name="Tramitador">
+      <Column Name="CedulaT" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombres" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellidos" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Privilegios" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Direccion" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ContraseñaT" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha_nacimiento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Pasado_judicial" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Descripcion" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Experiencia" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Tipo_vehiculo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

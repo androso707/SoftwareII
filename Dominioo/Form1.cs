@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Dominioo
 {
@@ -17,42 +18,59 @@ namespace Dominioo
             InitializeComponent();
         }
 
+
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;initial catalog =Database;Integrated Security=True");
+        //Persistencia.Conexion con = new Persistencia.Conexion();
+        
+
+        
+      
         private void Form1_Load(object sender, EventArgs e)
         {
+           // con.consultar("select * from Administrador", "Administrador");
 
+            //this.dataGridView1.DataSource = con.ds.Tables["Administrador"];
+            //this.dataGridView1.Refresh();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Persistencia.Administrador newAdministrador = new Persistencia.Administrador();
-            newAdministrador.CedulaA = Convert.ToInt32(textBox1.Text);
-            newAdministrador.Nombres = "Admin";
-            newAdministrador.Apellidos = "admin";
-            newAdministrador.Correo = "admin@admin.com";
-            newAdministrador.Contraseña = "0000";
-            newAdministrador.Telefono = "311122";
-            newAdministrador.Direccion = "calle joropo";
-            Persistencia.DataClassDataContext d = new Persistencia.DataClassDataContext();
-            d.Administrador.InsertOnSubmit(newAdministrador);
+            String sql = "insert into Administrador (CedulaA,Nombres,Apellidos,Correo,Contraseña,Telefono,Direccion)" +
+                "values ('55','osc','bp','admin@admin.com ','0000  ','311122 ','calle joropo')";
+            SqlCommand cmd = new SqlCommand("select * from Administrador", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            /* if (con.insertar(sql))
+             {
+                 MessageBox.Show("Registro Insertado");
+             }
+             else
+             {
+                 MessageBox.Show("Error al insertar");
+             }
+             Application.Restart();
+                 */
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+         
+          
             
+        }
 
-
-            Persistencia.DataClassDataContext dbcontext = new Persistencia.DataClassDataContext();
-            dbcontext.Administrador.InsertOnSubmit(newAdministrador);
-
-            try
-            {
-                dbcontext.SubmitChanges();
-                MessageBox.Show("Exitoso");
-                Console.WriteLine("EXITOO");
-
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("falla");
-                MessageBox.Show("fracaso");
-            }
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
+
+
+        //Properties.Settings.Default.co
+
+
+
+
     }
 }
+

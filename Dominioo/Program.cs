@@ -14,7 +14,7 @@ namespace Dominioo
       [STAThread]
         static void Main()
         {
-            AppDomain.CurrentDomain.SetData("DataDirectory", System.Environment.CurrentDirectory.Replace("\\bin\\Debug", ""));
+           // AppDomain.CurrentDomain.SetData("DataDirectory", System.Environment.CurrentDirectory.Replace("\\bin\\Debug", ""));
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

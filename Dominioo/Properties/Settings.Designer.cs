@@ -26,5 +26,7 @@ namespace Dominioo.Properties
                 return defaultInstance;
             }
         }
+
+        public string Conexion { get; internal set; }
     }
 }

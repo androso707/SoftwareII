@@ -47,8 +47,8 @@ namespace Persistencia
             newAdministrador.Telefono = "311122";
             newAdministrador.Direccion = "calle joropo";
 
-
-            DataClassDataContext dbcontext = new DataClassDataContext();
+            DataClasses1DataContext dbcontext = new DataClasses1DataContext();
+           
             dbcontext.Administrador.InsertOnSubmit(newAdministrador);
 
             try

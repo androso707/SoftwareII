@@ -26,11 +26,11 @@ namespace Persistencia.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf" +
-            ";Integrated Security=True")]
-        public string Database1ConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database.mdf;" +
+            "Integrated Security=True")]
+        public string ConexionDB {
             get {
-                return ((string)(this["Database1ConnectionString"]));
+                return ((string)(this["ConexionDB"]));
             }
         }
     }
