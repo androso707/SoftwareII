@@ -17,60 +17,71 @@ namespace Dominioo
         {
             InitializeComponent();
         }
-
-
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;initial catalog =Database;Integrated Security=True");
-        //Persistencia.Conexion con = new Persistencia.Conexion();
         
 
-        
-      
+                  
+        SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Leo\Documents\Database.mdf;Integrated Security=True;Connect Timeout=30");
+
         private void Form1_Load(object sender, EventArgs e)
         {
-           // con.consultar("select * from Administrador", "Administrador");
 
-            //this.dataGridView1.DataSource = con.ds.Tables["Administrador"];
-            //this.dataGridView1.Refresh();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String sql = "insert into Administrador (CedulaA,Nombres,Apellidos,Correo,Contraseña,Telefono,Direccion)" +
-                "values ('55','osc','bp','admin@admin.com ','0000  ','311122 ','calle joropo')";
-            SqlCommand cmd = new SqlCommand("select * from Administrador", con);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            /* if (con.insertar(sql))
-             {
-                 MessageBox.Show("Registro Insertado");
-             }
-             else
-             {
-                 MessageBox.Show("Error al insertar");
-             }
-             Application.Restart();
-                 */
+            conexion.Open();
+            MessageBox.Show("se abrio");
+            SqlCommand cmd = conexion.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "INSERT [Administrador] (CedulaA,Nombres,Apellidos,Correo,Contraseña,Telefono,Direccion) VALUES ('" + Cedula.Text + "','" + Nombre.Text + "','" + Apellido.Text + "','" + Correo.Text + "','" + Contrasena.Text + "','" + Telefono.Text + "','" + Direccion.Text + "')";
+            cmd.ExecuteNonQuery();
+            conexion.Close();
+            MessageBox.Show("datos insertados");
+                
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-         
-          
-            
+            conexion.Open();
+            SqlCommand cmd = conexion.CreateCommand();
+            cmd.CommandText = ("Select  * from [Administrador]");
+            cmd.ExecuteNonQuery();
+            DataTable data = new DataTable();
+            SqlDataAdapter datap = new SqlDataAdapter(cmd);
+            datap.Fill(data);
+            dataGridView1.DataSource = data;
+            conexion.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void Borrar_Click(object sender, EventArgs e)
         {
+            conexion.Open();
+            MessageBox.Show("se abrio");
+            SqlCommand cmd = conexion.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from [Administrador] where CedulaA = '" + Cedula.Text + "'";
+            cmd.ExecuteNonQuery();
+            conexion.Close();
+            MessageBox.Show("datos borrados");
 
         }
 
-
-        //Properties.Settings.Default.co
-
-
-
-
+        private void Modificar_Click(object sender, EventArgs e)
+        {
+            conexion.Open();
+            MessageBox.Show("se abrio");
+            SqlCommand cmd = conexion.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "update  [Administrador] set Nombres = '" + Nombre.Text + "' where CedulaA  = '" + Cedula.Text + "'";
+            cmd.ExecuteNonQuery();
+            conexion.Close();
+            MessageBox.Show("datos modificados");
+        }
     }
 }
 

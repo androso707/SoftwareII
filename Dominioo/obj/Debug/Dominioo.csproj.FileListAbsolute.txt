@@ -14,3 +14,35 @@ C:\Users\boter\SoftwareII\Dominioo\bin\Debug\Persistencia.exe.config
 C:\Users\boter\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
 C:\Users\boter\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
 C:\Users\boter\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Database.mdf
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Database_log.ldf
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Dominioo.exe.config
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Dominioo.exe
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Dominioo.pdb
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Persistencia.exe
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Persistencia.pdb
+C:\Users\Leo\SoftwareII\Dominioo\bin\Debug\Persistencia.exe.config
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.csprojAssemblyReference.cache
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.Form1.resources
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.Properties.Resources.resources
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.GenerateResource.cache
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CoreCompileInputs.cache
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Database.mdf
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Database_log.ldf
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Dominioo.exe.config
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Dominioo.exe
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Dominioo.pdb
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Persistencia.exe
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Persistencia.pdb
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\bin\Debug\Persistencia.exe.config
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csprojAssemblyReference.cache
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.Form1.resources
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.Properties.Resources.resources
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.GenerateResource.cache
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
+C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb

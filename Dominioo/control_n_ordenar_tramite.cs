@@ -6,5 +6,6 @@ namespace Dominio
 {
     class control_n_ordenar_tramite
     {
+
     }
 }
