@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="administrador.cs" />
     <Compile Include="cliente.cs" />
+    <Compile Include="ControlFormTramite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlFormTramite.Designer.cs">
+      <DependentUpon>ControlFormTramite.cs</DependentUpon>
+    </Compile>
     <Compile Include="control_n_calificar_cliente.cs" />
     <Compile Include="control_n_calificar_tramitador.cs" />
     <Compile Include="control_n_consultar_estado_tramite.cs" />
@@ -67,6 +73,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrdenarTramite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdenarTramite.Designer.cs">
+      <DependentUpon>OrdenarTramite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="pruebas.cs" />
@@ -74,8 +86,14 @@
     <Compile Include="tramitador.cs" />
     <Compile Include="tramite.cs" />
     <Compile Include="usuario.cs" />
+    <EmbeddedResource Include="ControlFormTramite.resx">
+      <DependentUpon>ControlFormTramite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdenarTramite.resx">
+      <DependentUpon>OrdenarTramite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

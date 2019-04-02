@@ -34,6 +34,7 @@ namespace Dominioo
 
         private void button1_Click(object sender, EventArgs e)
         {
+                
             conexion.Open();
             MessageBox.Show("se abrio");
             SqlCommand cmd = conexion.CreateCommand();
@@ -42,6 +43,8 @@ namespace Dominioo
             cmd.ExecuteNonQuery();
             conexion.Close();
             MessageBox.Show("datos insertados");
+
+            
                 
         }
 
@@ -49,7 +52,7 @@ namespace Dominioo
         {
             conexion.Open();
             SqlCommand cmd = conexion.CreateCommand();
-            cmd.CommandText = ("Select  * from [Administrador]");
+            cmd.CommandText = ("Select  * from [Tramite]");
             cmd.ExecuteNonQuery();
             DataTable data = new DataTable();
             SqlDataAdapter datap = new SqlDataAdapter(cmd);
