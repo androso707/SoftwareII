@@ -70,6 +70,18 @@
       <DependentUpon>CalificarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="cliente.cs" />
+    <Compile Include="ControlCalificarTramite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCalificarTramite.Designer.cs">
+      <DependentUpon>ControlCalificarTramite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlVistaOrdenar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlVistaOrdenar.Designer.cs">
+      <DependentUpon>ControlVistaOrdenar.cs</DependentUpon>
+    </Compile>
     <Compile Include="control_n_calificar_cliente.cs" />
     <Compile Include="control_n_calificar_tramitador.cs" />
     <Compile Include="control_n_consultar_estado_tramite.cs" />
@@ -95,8 +107,25 @@
     <Compile Include="tramitador.cs" />
     <Compile Include="tramite.cs" />
     <Compile Include="usuario.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="CalificarCliente.resx">
       <DependentUpon>CalificarCliente.cs</DependentUpon>
+=======
+    <Compile Include="VistaOrdendarTramite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaOrdendarTramite.Designer.cs">
+      <DependentUpon>VistaOrdendarTramite.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CalificarTramitador.resx">
+      <DependentUpon>CalificarTramitador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCalificarTramite.resx">
+      <DependentUpon>ControlCalificarTramite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlVistaOrdenar.resx">
+      <DependentUpon>ControlVistaOrdenar.cs</DependentUpon>
+>>>>>>> 292fc9d420c9daf2b82aec35a3170e9bdeccbdbc
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -110,6 +139,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VistaOrdendarTramite.resx">
+      <DependentUpon>VistaOrdendarTramite.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

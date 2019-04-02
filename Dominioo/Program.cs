@@ -18,7 +18,11 @@ namespace Dominioo
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new CalificarCliente());
+=======
+            Application.Run(new VistaOrdendarTramite ());
+>>>>>>> 292fc9d420c9daf2b82aec35a3170e9bdeccbdbc
             
 
         }

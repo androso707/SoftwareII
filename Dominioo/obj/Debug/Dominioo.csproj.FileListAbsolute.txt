@@ -46,4 +46,9 @@ C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Domin
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb
+<<<<<<< HEAD
 C:\Users\boter\SoftwareII\Dominioo\obj\Debug\Dominioo.CalificarTramitador.resources
+=======
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.VistaOrdendarTramite.resources
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.ControlVistaOrdenar.resources
+>>>>>>> 292fc9d420c9daf2b82aec35a3170e9bdeccbdbc

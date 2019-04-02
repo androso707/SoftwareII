@@ -17,10 +17,10 @@ namespace Dominioo
         {
             InitializeComponent();
         }
+        
 
-
-        //Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\boter\SoftwareII\WindowsFormsApp1\Database.mdf;Integrated Security = True
-        SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\boter\SoftwareII\WindowsFormsApp1\Database.mdf;Integrated Security=True");
+                  
+        SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Leo\Documents\Database.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void Form1_Load(object sender, EventArgs e)
         {
