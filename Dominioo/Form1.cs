@@ -82,6 +82,11 @@ namespace Dominioo
             conexion.Close();
             MessageBox.Show("datos modificados");
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 

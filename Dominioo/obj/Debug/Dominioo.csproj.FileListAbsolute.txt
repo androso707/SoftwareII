@@ -46,3 +46,4 @@ C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Domin
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb
+C:\Users\boter\SoftwareII\Dominioo\obj\Debug\Dominioo.CalificarTramitador.resources
