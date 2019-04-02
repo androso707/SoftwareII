@@ -17,10 +17,10 @@ namespace Dominioo
         {
             InitializeComponent();
         }
+        
 
-
-        //Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\boter\SoftwareII\WindowsFormsApp1\Database.mdf;Integrated Security = True
-        SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\boter\SoftwareII\WindowsFormsApp1\Database.mdf;Integrated Security=True");
+                  
+        SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Leo\Documents\Database.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -34,7 +34,6 @@ namespace Dominioo
 
         private void button1_Click(object sender, EventArgs e)
         {
-                
             conexion.Open();
             MessageBox.Show("se abrio");
             SqlCommand cmd = conexion.CreateCommand();
@@ -43,8 +42,6 @@ namespace Dominioo
             cmd.ExecuteNonQuery();
             conexion.Close();
             MessageBox.Show("datos insertados");
-
-            
                 
         }
 
@@ -52,7 +49,7 @@ namespace Dominioo
         {
             conexion.Open();
             SqlCommand cmd = conexion.CreateCommand();
-            cmd.CommandText = ("Select  * from [Tramite]");
+            cmd.CommandText = ("Select  * from [Administrador]");
             cmd.ExecuteNonQuery();
             DataTable data = new DataTable();
             SqlDataAdapter datap = new SqlDataAdapter(cmd);

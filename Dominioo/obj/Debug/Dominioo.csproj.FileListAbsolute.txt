@@ -46,25 +46,5 @@ C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Domin
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb
-<<<<<<< HEAD
-C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.ControlFormTramite.resources
-C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.OrdenarTramite.resources
-=======
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Database.mdf
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Database_log.ldf
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Dominioo.exe.config
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Dominioo.exe
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Dominioo.pdb
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Persistencia.exe
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Persistencia.pdb
-C:\Users\lina\SoftwareII\Dominioo\bin\Debug\Persistencia.exe.config
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.csprojAssemblyReference.cache
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.Form1.resources
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.Form2.resources
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.Properties.Resources.resources
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.GenerateResource.cache
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CoreCompileInputs.cache
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.csproj.CopyComplete
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.exe
-C:\Users\lina\SoftwareII\Dominioo\obj\Debug\Dominioo.pdb
->>>>>>> 9e192235d94ff5440d94d7182217304c024fcec8
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.VistaOrdendarTramite.resources
+C:\Users\Leo\SoftwareII\Dominioo\obj\Debug\Dominioo.ControlVistaOrdenar.resources

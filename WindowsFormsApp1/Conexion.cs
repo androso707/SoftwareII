@@ -11,11 +11,6 @@ namespace Persistencia
 {
     public class Conexion
     {
-        
-
-        public void BuscarTramite()
-        {
- 
-        }
+        SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Leo\Documents\Database.mdf;Integrated Security=True;Connect Timeout=30");
     }
 }
