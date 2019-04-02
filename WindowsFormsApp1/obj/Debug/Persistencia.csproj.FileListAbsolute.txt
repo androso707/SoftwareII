@@ -34,3 +34,15 @@ C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Deb
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.exe
 C:\Users\Leo\Downloads\SOFTWARE MOCKUP\FINAL\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.pdb
+C:\Users\lina\SoftwareII\WindowsFormsApp1\bin\Debug\Database.mdf
+C:\Users\lina\SoftwareII\WindowsFormsApp1\bin\Debug\Database_log.ldf
+C:\Users\lina\SoftwareII\WindowsFormsApp1\bin\Debug\Persistencia.exe.config
+C:\Users\lina\SoftwareII\WindowsFormsApp1\bin\Debug\Persistencia.exe
+C:\Users\lina\SoftwareII\WindowsFormsApp1\bin\Debug\Persistencia.pdb
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Dominioo.Form1.resources
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.Properties.Resources.resources
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.GenerateResource.cache
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.exe
+C:\Users\lina\SoftwareII\WindowsFormsApp1\obj\Debug\Persistencia.pdb
